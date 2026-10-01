@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>费后正期望检查单 · @Tangbh9527</title>
+  <meta name="description" content="免费可打印：费后正期望 10 问检查单。非投资建议，不荐币。@Tangbh9527" />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a2332;
+      --text: #e7ecf3;
+      --muted: #9aa7b8;
+      --accent: #1d9bf0;
+      --warn: #f4212e;
+      --ok: #00ba7c;
+      --border: #2f3b4d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Noto Sans SC", "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 1.5rem 1rem 3rem;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: 1.45rem; margin: 0 0 0.4rem; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .badge {
+      display: inline-block;
+      background: #132f4c;
+      color: var(--accent);
+      border: 1px solid #1d4e7a;
+      border-radius: 999px;
+      padding: 0.15rem 0.65rem;
+      font-size: 0.75rem;
+      margin-right: 0.35rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.1rem 1.2rem;
+      margin: 1rem 0;
+    }
+    h2 { font-size: 1.1rem; margin: 0 0 0.75rem; }
+    ul { margin: 0.4rem 0; padding-left: 1.2rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.45rem 0.4rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #121a26; color: var(--muted); font-weight: 600; }
+    .q { width: 70%; }
+    .chk { width: 10%; text-align: center; }
+    .warn {
+      color: #ffd4d8;
+      background: #3a1519;
+      border: 1px solid #6b2430;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+    }
+    pre {
+      background: #121a26;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .actions { margin: 1rem 0; }
+    .actions a {
+      display: inline-block;
+      margin-right: 0.75rem;
+      margin-bottom: 0.5rem;
+      padding: 0.45rem 0.9rem;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .actions a.secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    @media print {
+      body { background: #fff; color: #111; padding: 0; }
+      .card, .warn, pre { border-color: #ccc; background: #fff; color: #111; }
+      .badge, .actions a { border: 1px solid #999; color: #111; background: #fff; }
+      a { color: #111; }
+      th { background: #eee; color: #333; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <span class="badge">免费</span>
+        <span class="badge">可打印</span>
+        <span class="badge">零实盘立场</span>
+      </div>
+      <h1>费后正期望检查单</h1>
+      <p class="meta">开仓前 10 问 · 非投资建议 · 不荐币 · <a href="https://x.com/Tangbh9527">@Tangbh9527</a></p>
+    </header>
+
+    <div class="warn">
+      <strong>免责声明：</strong>本页仅作教育与自检清单，不构成投资建议、不推荐任何币种或交易所、不提供跟单/喊单。交易有风险；作者与账号保持<strong>零实盘</strong>直至自有纸面费后期望过关。
+    </div>
+
+    <div class="actions">
+      <a href="#" onclick="window.print(); return false;">打印本页</a>
+      <a class="secondary" href="./fee-expectancy-checklist.md">Markdown 源文件</a>
+    </div>
+
+    <div class="card">
+      <h2>为什么要先算费？</h2>
+      <ul>
+        <li>小资金<strong>满仓 + 高频</strong> ≈ 给交易所交税。</li>
+        <li>单边 0.8% 费 + 0.2% 滑点 → 往返约 <strong>2%</strong>；毛利吃不掉成本时，做越多亏越稳。</li>
+        <li>零成本回测赚钱 ≠ 费后赚钱。「有止损」也挡不住往返税。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>10 问（全部「是」再谈纸面验证）</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="q">问题</th>
+            <th class="chk">是</th>
+            <th class="chk">否</th>
+            <th class="chk">?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1. 已写下单边手续费 + 预估滑点，并算出往返成本？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>2. 平均毛利是否明确大于往返成本？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>3. 回测是否用了与实盘同档或更差的费率（压力场景）？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>4. 样本是否足够（建议 ≥30～50 笔），且非挑段行情？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>5. 去掉最好 3 笔后，费后结果是否仍可接受？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>6. 是否避免小本满仓？单笔亏损是否可承受？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>7. 频率是否低到不会把往返税乘飞？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>8. 是否区分 maker/taker？是否假设「一定成交」过于乐观？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>9. 止损是否未被误当成「已覆盖费率」？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+          <tr><td>10. 若费后 EV≤0：是否承诺零实盘直到纸面过关？</td><td class="chk">☐</td><td class="chk">☐</td><td class="chk">☐</td></tr>
+        </tbody>
+      </table>
+      <p class="meta" style="margin-top:0.75rem">任一「否」或「不知道」→ 停止，不要开仓。</p>
+    </div>
+
+    <div class="card">
+      <h2>速算框</h2>
+      <pre>单边费 %     = ______
+单边滑点 %   = ______
+往返成本 %   = (费+滑点) × 2 = ______
+预估毛利 %/笔 = ______
+费后边际 %   = 毛利 − 往返 = ______   （≤0 → 不要做）</pre>
+    </div>
+
+    <div class="card">
+      <h2>我们自己的结案（透明披露）</h2>
+      <p>自有 D1/D2 纸面验证（压力约 0.8%/边 + 0.2%/边滑点）下：常见突破/回归网格<strong>未找到</strong>稳定费后 EV&gt;0 规则族；主动策略暂无纸面边 → <strong>继续零实盘</strong>。</p>
+      <p class="meta">请用你自己的费率重算，不要照抄当金律。</p>
+    </div>
+
+    <footer>
+      <p>免费分享，可打印自用。禁止改写成荐币广告或「稳赚」承诺。</p>
+      <p>讨论：<a href="https://x.com/Tangbh9527">x.com/Tangbh9527</a> · 源文件见同目录 Markdown · 更新 2026-10-01（ET）</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,8 +1,11 @@
-# 当前阻塞
+# Kunyi 需提供（当前阻塞清单）
 
-## Ko-fi 收款页暂停
+1. **Ko-fi 提现绑定**：请在 Ko-fi 绑定 PayPal 或 Stripe，才能收款后提现。
+2. **等 PDF1 商品页**：店铺页已恢复 `https://ko-fi.com/xiaozhanghuchaindesk`；专用 `/s/` 商品链接上架后换成精确 URL。
 
-- `https://ko-fi.com/xiaozhanghuchaindesk` 当前不可用：访问会 HTTP 302 跳转到 Ko-fi 首页，店铺状态显示为 suspended。
-- 因此暂不提供 PDF1 的单次购买链接，也不虚构新的收款 URL。
-- 公共页已改为提示：单次购买链接暂时失效，正在换收款页。免费检查单仍然可用。
-- Substack `https://xiaozhanghuchaindesk.substack.com/` 当前可访问（HTTP 200），暂时保留。
+**已解除**
+- X `@Tangbh9527` 浏览器已登录；thread1 与购买入口帖已发。
+- Ko-fi 整页 unpublished 已恢复（case 245834）；公开页 CTA 已补回。
+- Substack：`https://xiaozhanghuchaindesk.substack.com/`（$6/月）。
+
+**规则**：花费 $0；零实盘；有真实付款再报收入。
